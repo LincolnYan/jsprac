@@ -17,3 +17,4 @@ var applyAndEmpty = function(input, queue){
 };
 
 alert(applyAndEmpty(start, puzzlers));
+ 
