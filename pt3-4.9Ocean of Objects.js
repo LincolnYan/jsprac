@@ -15,7 +15,7 @@ function dontPanic(location) {
   var list = "Avast, me hearties!\n" +
              "There be Pirates nearby! Stations!\n";
 
-  for(var i = 1; i < location.numRangers; i++) {
+  for(var i = 1; i <= location.numRangers; i++) {
   	list += location["ranger" + i].name + ", man the " + location.weaponBulbs[location["ranger" + i].station-1][0] + "!\n";
   }
   
